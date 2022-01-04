@@ -1,0 +1,77 @@
+
+body{
+    width: 8.27in;
+    margin: auto;
+    border: 1px solid black;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.headline{
+    position: relative;
+}
+.htext{
+    position: absolute;
+    bottom: 1px;
+    left: 110px;
+    color: rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#udeg{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* .eback{
+    border: 1px solid black; 
+} */
+/* .eback tr{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(168, 79, 79);
+} */
+#c-objective-id{
+    padding-left: 10px;
+}
+.eback tr td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+  }
+  .eback tr th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+  }
+  .eback{
+      margin: auto;
+  }
+.pprofile td{
+   
+    padding-left: 10px;
+}
+.ref{
+    display: flex;
+  
+}
+.ref div{
+   width: 50%;
+    border: 0px solid black;
+    padding-left: 10px;
+}
+.sub{
+    margin-left: 50px;
+}
+#bcolor{
+    background-image: linear-gradient(to right, rgb(40, 62, 63), rgb(180, 185, 185));
+    color: white;
+    text-indent: 10px;
+}
+#sbcolor{
+    background-image: linear-gradient(to right, black, rgb(180, 185, 185));
+    color: white;
+    text-indent: 10px;
+}
