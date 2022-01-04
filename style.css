@@ -3,6 +3,7 @@ body{
     width: 8.27in;
     margin: auto;
     border: 1px solid black;
+    
     padding: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -74,4 +75,7 @@ body{
     background-image: linear-gradient(to right, black, rgb(180, 185, 185));
     color: white;
     text-indent: 10px;
+}
+#inst-name{
+    text-align: left;
 }
