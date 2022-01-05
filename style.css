@@ -8,10 +8,14 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 .headline{
-    position: relative;
+    display: flex;
+}
+.header{
+    width:auto;
 }
 .htext{
-    position: absolute;
+    
+   
     bottom: 1px;
     left: 110px;
     color: rgb(0, 0, 0);
@@ -23,33 +27,32 @@ body{
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
 }
-/* .eback{
-    border: 1px solid black; 
-} */
-/* .eback tr{
-    border: 1px solid black;
-    text-align: center;
-    padding: 5px;
-    background-color: rgb(168, 79, 79);
-} */
+
+.c-info{
+
+    text-align:left;
+    border-left: 1px solid black;
+    margin-left: 60px;
+    padding-left: 5px;
+  
+}
+
 #c-objective-id{
     padding-left: 10px;
 }
-.eback tr td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    padding: 5px;
-  }
-  .eback tr th {
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    padding: 5px;
-  }
   .eback{
-      margin: auto;
+      width: 100%;
+      border-collapse: collapse;
   }
+  .eback td, .eback th{
+      padding: 5px 10px;
+      border: 1px solid black;
+      text-align: center;
+
+  }
+  #inst-name{
+    text-align: left;
+}
 .pprofile td{
    
     padding-left: 10px;
@@ -76,6 +79,4 @@ body{
     color: white;
     text-indent: 10px;
 }
-#inst-name{
-    text-align: left;
-}
+
